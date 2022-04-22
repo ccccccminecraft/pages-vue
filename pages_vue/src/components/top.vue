@@ -1,27 +1,34 @@
 <template>
 <div class="main">
     <h1>こんにちは</h1>
-    <div>
+    <div class="box">
         <h2>Abount Me</h2>
-        <p class="about-me">
-            鼻毛鯖にいた人、色々したり何もしなかったりします。<br />
-            ゲーム:  Minecraft/Apex/2DX/DDR/VRC/AmongUs/GGST/PSO2/DQX/etc...<br />
-            その他:  DTM/プログラミング
-        </p>
+        <div>
+            鼻毛鯖にいた人、<br>
+            色々したり何もしなかったりします。
+        </div>
+        <div>
+            <h3>ゲーム:</h3>
+            Minecraft / Apex / 2DX / DDR / VRC / AmongUs / GGST / PSO2 / DQX / etc...
+        </div>
+        <div>
+            <h3>その他:</h3>
+            DTM / プログラミング
+        </div>
         <h2>Link</h2>
         <p>
-            アイコンをクリックすると各種サービスのページに移動します。<br />
-            近日中にminecraft等のサーバー稼働状況を見れるようにします。
-        </p>
-    </div>
-    <div class="box">
+            アイコンをクリックすると
+            各種サービスのページに移動します。<br>
+            近日中にminecraft等の
+            サーバー稼働状況を見れるようにしたい。
+        </p>    
         <div class="row">
             <div class="box-4u">
                 <a href="https://twitter.com/c6cl_" target="_blank" rel="noopener noreferrer">
                     <div class="image">
                         <img src="../assets/top_wm.jpeg" alt="twitter_c6" />
                     </div>
-                    <strong>Twitter</strong>
+                    <p class="image_txt">Twitter</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -29,7 +36,7 @@
                     <div class="image">
                         <img src="../assets/top_steam.png" alt="steam" />
                     </div>
-                    <strong>Steam</strong>
+                    <p class="image_txt">Steam</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -37,7 +44,7 @@
                     <div class="image">
                         <img src="../assets/top_soundcloud.jpg" alt="SoundCloud" />
                     </div>
-                    <strong>SoundCloud</strong>
+                    <p class="image_txt">SoundCloud</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -45,21 +52,21 @@
                     <div class="image">
                         <img src="../assets/hatena.png" alt="hatena" />
                     </div>
-                    <strong>はてなBlog</strong>
+                    <p class="image_txt">はてなBlog</p>
                 </a>
             </div>
             <div class="box-4u">
                 <div class="image">
                     <img src="../assets/top_minecraft.png" alt="minecraft"/>
                 </div>
-                <strong>Minecraft(閉鎖中)</strong>
+                <p class="image_txt">Minecraft(閉鎖中)</p>
             </div>
             <div class="box-4u">
                 <a href="https://vrchat.com/home/user/usr_fa3b94bc-9b09-48d4-9636-a13c65bea25b" target="_blank" rel="noopener noreferrer">
                     <div class="image">
                         <img src="../assets/top_vrc.jpg" alt="vrc"/>
                     </div>
-                    <strong>VR Chat</strong>
+                    <p class="image_txt">VR Chat</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -67,10 +74,14 @@
                     <div class="image">
                         <img src="../assets/top_dqx.png" alt="dqx" />
                     </div>
-                    <strong>DQ10</strong>
+                    <p class="image_txt">DQ10</p>
                 </a>
             </div>
         </div>
+    </div>
+    <div class="footer">
+        GitHub Pagesで公開しています。<br>
+        vue.jsで書いたのにvueの機能使ってないねおかしいね。
     </div>
 </div>
 </template>
@@ -81,24 +92,43 @@ export default {
 </script>
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
-.main{
-    font-family: 'Zen Kaku Gothic New', sans-serif;
-    font-size: 16px;
+
+h2{
+    font-size: 1.75em;
+    text-align: left;
+}
+h3{
+    font-size: 1.25em;
+    margin: 1em 0 0 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 img{
     width: 100%;
 }
+.main{
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 16px;
+    overflow-wrap: break-word
+}
 .box{
+    width: clamp(100px,90%,100vh);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 .row {
     display: flex;
     flex-wrap: wrap;
-    width: min(75%, 100vh);
+    justify-content: center;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 .box-4u{
-    width:20%;
+    width: clamp(15vh,20%,100vh);
     height: 100%;
     margin: 2%;
 }
@@ -112,11 +142,15 @@ img{
     height: 100%;
     margin: 0%;
 }
-strong{
+.image_txt{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    margin: 0;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+.footer{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
-
 </style>
