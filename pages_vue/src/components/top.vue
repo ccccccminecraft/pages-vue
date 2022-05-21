@@ -48,6 +48,14 @@
                 </a>
             </div>
             <div class="box-4u">
+                <a href="https://github.com/ccccccminecraft" target="_blank" rel="noopener noreferrer">
+                    <div class="image">
+                        <img src="../assets/top_github.png" alt="github" />
+                    </div>
+                    <p class="image_txt">GitHub</p>
+                </a>
+            </div>
+            <div class="box-4u">
                 <a href="https://cccccc.hatenablog.com" target="_blank" rel="noopener noreferrer">
                     <div class="image">
                         <img src="../assets/hatena.png" alt="hatena" />
