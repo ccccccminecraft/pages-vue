@@ -39,7 +39,7 @@ export default{
     },
     methods: {
         getStatus(){
-            const url = "http://hanage-community-servers:5000/minecraft"
+            const url = "http://hanage-community-servers.net:5000/minecraft"
             axios
                 .get(url)
                 .then(responce=>(this.servers = responce.data))
