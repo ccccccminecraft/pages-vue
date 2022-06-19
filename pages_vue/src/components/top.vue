@@ -64,10 +64,12 @@
                 </a>
             </div>
             <div class="box-4u">
-                <div class="image">
-                    <img src="../assets/top_minecraft.png" alt="minecraft"/>
-                </div>
-                <p class="image_txt">Minecraft(閉鎖中)</p>
+                <router-link to="/minecraft">
+                    <div class="image">
+                        <img src="../assets/top_minecraft.png" alt="minecraft"/>
+                    </div>
+                    <p class="image_txt">Minecraft</p>
+                </router-link>
             </div>
             <div class="box-4u">
                 <a href="https://vrchat.com/home/user/usr_fa3b94bc-9b09-48d4-9636-a13c65bea25b" target="_blank" rel="noopener noreferrer">
