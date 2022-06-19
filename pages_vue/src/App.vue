@@ -1,15 +1,10 @@
 <template>
-  <topPage/>
+<div id="app">
+    <router-view/>
+</div>
 </template>
 
 <script>
-import topPage from './components/top.vue'
-
-export default {
-  components: {
-    topPage
-  }
-}
 </script>
 
 <style>
