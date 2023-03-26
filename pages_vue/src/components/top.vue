@@ -8,8 +8,13 @@
             色々したり何もしなかったりします。
         </div>
         <div>
+            <h3>名前:</h3>
+            CCCCCC (ゲームするとき)<br>
+            Capsluck (曲を作るとき)
+        </div>
+        <div>
             <h3>ゲーム:</h3>
-            Minecraft / Apex / 2DX / DDR / VRC / AmongUs / GGST / PSO2 / DQX / etc...
+            Minecraft / Apex / beatmania 2DX / DDR / VRC / AmongUs / GGST / PSO2 / DQX / MTG / etc...
         </div>
         <div>
             <h3>その他:</h3>
@@ -19,8 +24,6 @@
         <p>
             アイコンをクリックすると
             各種サービスのページに移動します。<br>
-            近日中にminecraft等の
-            サーバー稼働状況を見れるようにしたい。
         </p>    
         <div class="row">
             <div class="box-4u">
@@ -37,6 +40,14 @@
                         <img src="../assets/top_steam.png" alt="steam" />
                     </div>
                     <p class="image_txt">Steam</p>
+                </a>
+            </div>
+            <div class="box-4u">
+                <a href="https://www.youtube.com/channel/UCrDCXPEdUgZu8TwcwZGGYZw" target="_blank" rel="noopener noreferrer">
+                    <div class="image">
+                        <img src="../assets/top_youtube.png" alt="youtube" />
+                    </div>
+                    <p class="image_txt">Youtube(Music)</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -90,8 +101,7 @@
         </div>
     </div>
     <div class="footer">
-        GitHub Pagesで公開しています。<br>
-        vue.jsで書いたのにvueの機能使ってないねおかしいね。
+        GitHub Pagesで公開しています。
     </div>
 </div>
 </template>

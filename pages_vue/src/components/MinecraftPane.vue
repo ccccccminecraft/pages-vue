@@ -4,6 +4,7 @@
     <div class="box">
         <p>疲れた！</p>
         <p>デザインはまた今度</p>
+        <p>ただいま休止中です</p>
         <table>
             <tr>
                 <th>サーバー名</th>
@@ -35,7 +36,8 @@ export default{
         }
     },
     created: function(){
-        this.getStatus()
+        // 動くようになるまでコメントアウト
+        // this.getStatus()
     },
     methods: {
         getStatus(){
