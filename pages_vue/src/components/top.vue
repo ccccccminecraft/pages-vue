@@ -26,7 +26,7 @@
             <div class="box-4u">
                 <a href="https://twitter.com/c6cl_" target="_blank" rel="noopener noreferrer">
                     <div class="image">
-                        <img src="../assets/top_wm.jpeg" alt="twitter_c6" />
+                        <img src="../assets/top_wm.png" alt="twitter_c6" />
                     </div>
                     <p class="image_txt">Twitter</p>
                 </a>
