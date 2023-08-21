@@ -91,6 +91,14 @@
                 </a>
             </div>
             <div class="box-4u">
+                <router-link to="/mtg">
+                    <div class="image">
+                        <img src="../assets/MTG.jpg" alt="mtg" />
+                    </div>
+                    <p class="image_txt">MTG</p>
+                </router-link>
+            </div>
+            <div class="box-4u">
                 <a href="https://hiroba.dqx.jp/sc/character/503265589265/" target="_blank" rel="noopener noreferrer">
                     <div class="image">
                         <img src="../assets/top_dqx.png" alt="dqx" />
