@@ -14,7 +14,7 @@
         </div>
         <div>
             <h3>ゲーム:</h3>
-            Minecraft / Apex / beatmania 2DX / DDR / VRC / AmongUs / GGST / PSO2 / DQX / MTG / etc...
+            Minecraft / Apex / BEMANI / BMS / VRC / AmongUs / GGST / PSO2 / DQX / MTG / etc...
         </div>
         <div>
             <h3>その他:</h3>
@@ -24,22 +24,15 @@
         <p>
             アイコンをクリックすると
             各種サービスのページに移動します。<br>
-        </p>    
+        </p>
+        <h3>Capsluck</h3>
         <div class="row">
             <div class="box-4u">
-                <a href="https://twitter.com/c6cl_" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/COOK_iE_" target="_blank" rel="noopener noreferrer">
                     <div class="image">
-                        <img src="../assets/top_wm.png" alt="twitter_c6" />
+                        <img src="../assets/top_twitter_cl.png" alt="twitter_cl" />
                     </div>
                     <p class="image_txt">Twitter</p>
-                </a>
-            </div>
-            <div class="box-4u">
-                <a href="https://steamcommunity.com/id/CCCCCC_/" target="_blank" rel="noopener noreferrer">
-                    <div class="image">
-                        <img src="../assets/top_steam.png" alt="steam" />
-                    </div>
-                    <p class="image_txt">Steam</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -56,6 +49,33 @@
                         <img src="../assets/top_soundcloud.jpg" alt="SoundCloud" />
                     </div>
                     <p class="image_txt">SoundCloud</p>
+                </a>
+            </div>
+            <div class="box-4u">
+                <router-link to="/bms">
+                    <div class="image">
+                        <img src="../assets/BMS.png" alt="bms"/>
+                    </div>
+                    <p class="image_txt">BMS</p>
+                </router-link>
+            </div>
+        </div>
+        <h3>CCCCCC</h3>
+        <div class="row">
+            <div class="box-4u">
+                <a href="https://twitter.com/c6cl_" target="_blank" rel="noopener noreferrer">
+                    <div class="image">
+                        <img src="../assets/top_wm.png" alt="twitter_c6" />
+                    </div>
+                    <p class="image_txt">Twitter</p>
+                </a>
+            </div>
+            <div class="box-4u">
+                <a href="https://steamcommunity.com/id/CCCCCC_/" target="_blank" rel="noopener noreferrer">
+                    <div class="image">
+                        <img src="../assets/top_steam.png" alt="steam" />
+                    </div>
+                    <p class="image_txt">Steam</p>
                 </a>
             </div>
             <div class="box-4u">
