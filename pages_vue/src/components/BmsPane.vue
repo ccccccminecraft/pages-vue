@@ -2,6 +2,10 @@
     <div class ="main">
         <h1>BMS</h1>
         <div class="box">
+            <h2>ライバル登録</h2>
+            <a href="https://mocha-repository.info/player.php?id=1497" target="_blank" rel="noopener noreferrer">
+                mocha-repository
+            </a>
             <h2>公開物について</h2>
             当サイトでBMSとして公開している、データの転載・改変・二次配布は全て許可します。<br>
             私がイベントに参加した時のBMSについても同様です。<br>
