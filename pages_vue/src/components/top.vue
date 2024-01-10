@@ -5,12 +5,15 @@
         <h2>Abount Me</h2>
         <div>
             鼻毛鯖にいた人、<br>
-            色々したり何もしなかったりします。
+            色々したり何もしなかったりします。<br>
+            曲を作ります。BMSを作ります。音ゲーします。<br>
+            最近はカードゲームもはじめました。<br>
         </div>
         <div>
             <h3>名前:</h3>
             CCCCCC (ゲームするとき)<br>
-            Capsluck (曲を作るとき)
+            Capsluck (曲を作るとき)<br>
+            シーロク (MTGをするとき)(本名調べれば出るかもだけどインターネット上ではシーロクでお願いします)
         </div>
         <div>
             <h3>ゲーム:</h3>
@@ -32,7 +35,7 @@
                     <div class="image">
                         <img src="../assets/top_twitter_cl.png" alt="twitter_cl" />
                     </div>
-                    <p class="image_txt">Twitter</p>
+                    <p class="image_txt">Twitter(音楽関連)</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -67,7 +70,7 @@
                     <div class="image">
                         <img src="../assets/top_wm.png" alt="twitter_c6" />
                     </div>
-                    <p class="image_txt">Twitter</p>
+                    <p class="image_txt">Twitter(日常)</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -111,6 +114,23 @@
                 </a>
             </div>
             <div class="box-4u">
+                <a href="https://hiroba.dqx.jp/sc/character/503265589265/" target="_blank" rel="noopener noreferrer">
+                    <div class="image">
+                        <img src="../assets/top_dqx.png" alt="dqx" />
+                    </div>
+                    <p class="image_txt">DQ10</p>
+                </a>
+            </div>
+        </div>
+        <h3>シーロク(@リバ崎MTG)</h3>
+        <div class="row">
+            <div class="box-4u">
+                <div class="image">
+                    <img src="../assets/_準備中.png" alt="mtg" />
+                </div>
+                <p class="image_txt">Twitter(MTG)</p>
+            </div>
+            <div class="box-4u">
                 <router-link to="/mtg">
                     <div class="image">
                         <img src="../assets/MTG.jpg" alt="mtg" />
@@ -119,12 +139,10 @@
                 </router-link>
             </div>
             <div class="box-4u">
-                <a href="https://hiroba.dqx.jp/sc/character/503265589265/" target="_blank" rel="noopener noreferrer">
-                    <div class="image">
-                        <img src="../assets/top_dqx.png" alt="dqx" />
-                    </div>
-                    <p class="image_txt">DQ10</p>
-                </a>
+                <div class="image">
+                    <img src="../assets/_準備中.png" alt="mtg" />
+                </div>
+                <p class="image_txt">リバ崎MTG Discord</p>
             </div>
         </div>
     </div>
