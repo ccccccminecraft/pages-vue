@@ -23,6 +23,9 @@
             <router-link to="/">戻る</router-link>
         </div>
     </div>
+    <div class="footer">
+        GitHub Pagesで公開しています。
+    </div>
 </div>
 </template>
 
@@ -71,5 +74,9 @@ td{
     text-align: center;    
     margin-left: auto;
     margin-right: auto;
+}
+.footer{
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 </style>
