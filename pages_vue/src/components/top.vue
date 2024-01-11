@@ -149,16 +149,18 @@
                 </router-link>
             </div>
             <div class="box-4u">
-                <div class="image">
-                    <img src="../assets/_準備中.png" alt="mtg" />
-                </div>
-                <p class="image_txt">Discord(リバ崎MTG)</p>
+                <a href="https://note.com/c6cl_/" target="_blank" rel="noopener noreferrer">
+                    <div class="image">
+                        <img src="../assets/top_note.png" alt="note" />
+                    </div>
+                    <p class="image_txt">note(MTG)</p>
+                </a>
             </div>
             <div class="box-4u">
                 <div class="image">
                     <img src="../assets/_準備中.png" alt="mtg" />
                 </div>
-                <p class="image_txt">note(MTG)</p>
+                <p class="image_txt">準備中</p>
             </div>
         </div>
     </div>
