@@ -94,7 +94,7 @@
                     <div class="image">
                         <img src="../assets/hatena.png" alt="hatena" />
                     </div>
-                    <p class="image_txt">はてなBlog</p>
+                    <p class="image_txt">はてなBlog(日常)</p>
                 </a>
             </div>
             <div class="box-4u">
@@ -103,6 +103,14 @@
                         <img src="../assets/top_minecraft.png" alt="minecraft"/>
                     </div>
                     <p class="image_txt">Minecraft</p>
+                </router-link>
+            </div>
+            <div class="box-4u">
+                <router-link to="/otoge">
+                    <div class="image">
+                        <img src="../assets/top_bemani.png" alt="bemani" />
+                    </div>
+                    <p class="image_txt">音ゲー</p>
                 </router-link>
             </div>
             <div class="box-4u">
@@ -125,24 +133,32 @@
         <h3>シーロク(@リバ崎MTG)</h3>
         <div class="row">
             <div class="box-4u">
-                <div class="image">
-                    <img src="../assets/_準備中.png" alt="mtg" />
-                </div>
-                <p class="image_txt">Twitter(MTG)</p>
+                <a href="https://twitter.com/C6_MTG" target="_blank" rel="noopener noreferrer">
+                    <div class="image">
+                        <img src="../assets/top_twitter_riv.png" alt="mtg" />
+                    </div>
+                    <p class="image_txt">Twitter(MTG)</p>
+                </a>
             </div>
             <div class="box-4u">
                 <router-link to="/mtg">
                     <div class="image">
                         <img src="../assets/MTG.jpg" alt="mtg" />
                     </div>
-                    <p class="image_txt">MTG</p>
+                    <p class="image_txt">MTG Profile</p>
                 </router-link>
             </div>
             <div class="box-4u">
                 <div class="image">
                     <img src="../assets/_準備中.png" alt="mtg" />
                 </div>
-                <p class="image_txt">リバ崎MTG Discord</p>
+                <p class="image_txt">Discord(リバ崎MTG)</p>
+            </div>
+            <div class="box-4u">
+                <div class="image">
+                    <img src="../assets/_準備中.png" alt="mtg" />
+                </div>
+                <p class="image_txt">note(MTG)</p>
             </div>
         </div>
     </div>

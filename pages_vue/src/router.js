@@ -3,6 +3,7 @@ import Top from './components/top.vue'
 import MinecraftPane from './components/MinecraftPane.vue'
 import MtgPane from './components/MtgPane.vue'
 import BmsPane from './components/BmsPane.vue'
+import BemaniPane from './components/BemaniPane.vue'
 
 export default createRouter({
     history: createWebHashHistory(process.env.BASE_URL),
@@ -26,6 +27,12 @@ export default createRouter({
             path: '/bms',
             name: 'bms',
             component: BmsPane
-        }
+        },
+        {
+            path: '/otoge',
+            name: 'otoge',
+            component: BemaniPane
+        },
+
     ]
 })
