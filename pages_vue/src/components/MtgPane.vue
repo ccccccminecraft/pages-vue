@@ -45,7 +45,8 @@
                 <h3>競技参加履歴</h3>
                 <br>
                 * チャンピオンズカップ Season2 Round3 St: 店舗予選通過 エリア予選敗退<br>
-                * チャンピオンズカップ Season3 Round1 Pi: まず店舗抜け目標<br>
+                * チャンピオンズカップ Season3 Round1 Pi: 店舗予選通過 エリア予選敗退<br>
+		* チャンピオンズカップ Season3 Round2 Mo: カジュアルにやる、店舗抜けたら奇跡<br>
                 <br>
             </div>
         </div>
