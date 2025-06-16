@@ -4,9 +4,11 @@ import MinecraftPane from './components/MinecraftPane.vue'
 import MtgPane from './components/MtgPane.vue'
 import BmsPane from './components/BmsPane.vue'
 import BemaniPane from './components/BemaniPane.vue'
+import DtmPane from './components/DtmPane.vue'
 
 export default createRouter({
     history: createWebHashHistory(process.env.BASE_URL),
+    scrollBehavior() {return { top: 0 }},
     routes: [
         {
             path: '/',
@@ -33,6 +35,11 @@ export default createRouter({
             name: 'otoge',
             component: BemaniPane
         },
+        {
+            path: '/dtm',
+            name: 'dtm',
+            component: DtmPane
+        }
 
     ]
 })

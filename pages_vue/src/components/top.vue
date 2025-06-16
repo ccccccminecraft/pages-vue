@@ -31,6 +31,16 @@
         <h3>Capsluck</h3>
         <div class="row">
             <div class="box-4u">
+                <router-link to="/dtm">
+                    <div class="image">
+                        <img src="../assets/top_twitter_cl.png" alt="dtm"/>
+                    </div>
+                    <p class="image_txt">Works</p>
+                </router-link>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box-4u">
                 <a href="https://twitter.com/COOK_iE_" target="_blank" rel="noopener noreferrer">
                     <div class="image">
                         <img src="../assets/top_twitter_cl.png" alt="twitter_cl" />
