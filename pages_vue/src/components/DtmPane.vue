@@ -2,6 +2,46 @@
     <div class ="main">
         <h1>Works</h1>
         <div class="box">
+            <div class="row">
+                <div class="icon">
+                    <img src="../assets/top_twitter_cl.png" alt="twitter_cl" />
+                </div>
+            </div>
+            <div class="info">
+                <h3>AboutMe</h3>
+                <p>Capsluck: Music</p>
+                <p>ハッピーハードコアを作っています。</p>
+            </div>
+            <div class="info">
+                <h3>Link</h3>
+            </div>
+            <div class="row">
+                <div class="box-4u">
+                    <a href="https://www.youtube.com/channel/UCrDCXPEdUgZu8TwcwZGGYZw" target="_blank" rel="noopener noreferrer">
+                        <div class="image">
+                            <img src="../assets/top_youtube.png" alt="youtube" />
+                        </div>
+                    </a>
+                </div>
+                <div class="box-4u">
+                    <a href="https://soundcloud.com/cookie_1dsprst" target="_blank" rel="noopener noreferrer">
+                        <div class="image">
+                            <img src="../assets/top_soundcloud.jpg" alt="SoundCloud" />
+                        </div>
+                    </a>
+                </div>
+                <div class="box-4u">
+                    <a href="https://twitter.com/COOK_iE_" target="_blank" rel="noopener noreferrer">
+                        <div class="image">
+                            <img src="../assets/top_twitter.png" alt="twitter_cl" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- 最新楽曲 -->
+            <div class="info">
+                <h3>Popular Tracks</h3>
+            </div>
             <div class="youtube">
                 <h3>Music Auto Connected / Capsluck feat.wadachi</h3>
                 <iframe
@@ -81,7 +121,49 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: clamp(100px,90%,40vh);
     margin-bottom: 4em;
+}
+.icon{
+    width: 20%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.box-4u{
+    width: clamp(8vh,8%,100vh);
+    height: 100%;
+    margin: 1%;
+}
+.image{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+.image:hover{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+.info{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+img{
+    width: 100%;
 }
 </style>

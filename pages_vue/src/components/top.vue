@@ -43,7 +43,7 @@
             <div class="box-4u">
                 <a href="https://twitter.com/COOK_iE_" target="_blank" rel="noopener noreferrer">
                     <div class="image">
-                        <img src="../assets/top_twitter_cl.png" alt="twitter_cl" />
+                        <img src="../assets/top_twitter.png" alt="twitter_cl" />
                     </div>
                     <p class="image_txt">Twitter(音楽関連)</p>
                 </a>
